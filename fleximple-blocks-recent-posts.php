@@ -2,7 +2,7 @@
 
 /**
  * Plugin Name:       Fleximple Blocks: Recent Posts
- * Description:       Do something in particular.
+ * Description:       Display a list of your most recent posts.
  * Version:           1.0.0
  * Requires at least: 6.7
  * Requires PHP:      7.4

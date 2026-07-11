@@ -1,0 +1,1860 @@
+# Copyright (C) 2020 Rodrigo D’Agostino
+# This file is distributed under the same license as the Fleximple Blocks plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Fleximple Blocks 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fleximple-blocks-"
+"recent-posts\n"
+"POT-Creation-Date: 2026-07-11T04:24:37+00:00\n"
+"PO-Revision-Date: 2026-07-11 01:25-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.9\n"
+
+#. Plugin Name of the plugin
+#: fleximple-blocks-recent-posts.php
+msgid "Fleximple Blocks: Recent Posts"
+msgstr "Fleximple Blocks: Entradas Recientes"
+
+#. Description of the plugin
+#: fleximple-blocks-recent-posts.php
+msgid "Display a list of your most recent posts."
+msgstr "Muestra una lista de tus entradas más recientes."
+
+#. Author of the plugin
+#: fleximple-blocks-recent-posts.php
+msgid "Rodrigo D’Agostino"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/render.php:84
+#: src/fleximple-blocks-recent-posts/render.php:84
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/recent-posts-preview.js:148
+msgid "Category:"
+msgstr "Categoría:"
+
+#: build/fleximple-blocks-recent-posts/render.php:101
+#: src/fleximple-blocks-recent-posts/render.php:101
+msgid "(no title)"
+msgstr "(sin título)"
+
+#: build/fleximple-blocks-recent-posts/render.php:127
+#: src/fleximple-blocks-recent-posts/render.php:127
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/recent-posts-preview.js:205
+msgid "Published by:"
+msgstr "Publicado por:"
+
+#: build/fleximple-blocks-recent-posts/render.php:139
+#: src/fleximple-blocks-recent-posts/render.php:139
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/recent-posts-preview.js:220
+msgid "Published on:"
+msgstr "Publicado en:"
+
+#: build/fleximple-blocks-recent-posts/render.php:148
+#: src/fleximple-blocks-recent-posts/render.php:148
+#, php-format
+msgid "%d comment"
+msgid_plural "%d comments"
+msgstr[0] "%d comentario"
+msgstr[1] "%d comentarios"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:20
+msgid "Display additional content"
+msgstr "Mostrar contenido adicional"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:21
+msgid "Hide additional content"
+msgstr "Ocultar contenido adicional"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:24
+msgid "Display audio"
+msgstr "Mostrar audio"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:25
+msgid "Hide audio"
+msgstr "Ocultar audio"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:28
+msgid "Display author"
+msgstr "Mostrar autor"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:29
+msgid "Hide author"
+msgstr "Ocultar autor"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:32
+msgid "Display categories"
+msgstr "Mostrar categorías"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:33
+msgid "Hide categories"
+msgstr "Ocultar categorías"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:36
+msgid "Display comments"
+msgstr "Mostrar comentarios"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:37
+msgid "Hide comments"
+msgstr "Ocultar comentarios"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:40
+msgid "Display content"
+msgstr "Mostrar contenido"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:41
+msgid "Hide content"
+msgstr "Ocultar contenido"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:44
+msgid "Display date"
+msgstr "Mostrar fecha"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:45
+msgid "Hide date"
+msgstr "Ocultar fecha"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:48
+msgid "Display excerpt"
+msgstr "Mostrar extracto"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:49
+msgid "Hide excerpt"
+msgstr "Ocultar extracto"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:52
+msgid "Display extra articles"
+msgstr "Mostrar artículos extra"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:53
+msgid "Hide extra articles"
+msgstr "Ocultar artículos extra"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:56
+msgid "Display featured image"
+msgstr "Mostrar imagen destacada"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:57
+msgid "Hide featured image"
+msgstr "Ocultar imagen destacada"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:60
+msgid "Display heading"
+msgstr "Mostrar título"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:61
+msgid "Hide heading"
+msgstr "Ocultar encabezado"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:64
+msgid "Display icon"
+msgstr "Mostrar ícono"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:65
+msgid "Hide icon"
+msgstr "Ocultar ícono"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:68
+msgid "Display media"
+msgstr "Mostrar multimedia"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:69
+msgid "Hide media"
+msgstr "Ocultar multimedia"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:72
+msgid "Display meta"
+msgstr "Mostrar metadatos"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:73
+msgid "Hide meta"
+msgstr "Ocultar metadatos"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:76
+msgid "Display quote"
+msgstr "Mostrar cita"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:77
+msgid "Hide quote"
+msgstr "Ocultar cita"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:80
+msgid "Display read more"
+msgstr "Mostrar leer más"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:81
+msgid "Hide read more"
+msgstr "Ocultar leer más"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:84
+msgid "Display reference"
+msgstr "Mostrar referencia"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:85
+msgid "Hide reference"
+msgstr "Ocultar referencia"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:88
+msgid "Display subhead"
+msgstr "Mostrar subtítulo"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:89
+msgid "Hide subhead"
+msgstr "Ocultar subtítulo"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:92
+msgid "Display title"
+msgstr "Mostrar título"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:93
+msgid "Hide title"
+msgstr "Ocultar título"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:100
+msgid "Additional content"
+msgstr "Contenido adicional"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:102
+msgid "Author"
+msgstr "Autor"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:104
+msgid "Audio"
+msgstr "Audio"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:106
+msgid "Categories"
+msgstr "Categorías"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:108
+msgid "Comments"
+msgstr "Comentarios"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:110
+msgid "Content"
+msgstr "Contenido"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:112
+msgid "Date"
+msgstr "Fecha"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:114
+msgid "Excerpt"
+msgstr "Extracto"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:116
+msgid "Extra articles"
+msgstr "Artículos extra"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:118
+msgid "Featured image"
+msgstr "Imagen destacada"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:120
+msgid "Heading"
+msgstr "Encabezado"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:122
+msgid "Icon"
+msgstr "Ícono"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:124
+#: src/fleximple-blocks-recent-posts/edit.js:291
+msgid "Media"
+msgstr "Multimedia"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:126
+msgid "Meta"
+msgstr "Metadatos"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:128
+msgid "Quote"
+msgstr "Cita"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:130
+msgid "Read more"
+msgstr "Leer más"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:132
+msgid "Reference"
+msgstr "Referencia"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:134
+msgid "Subhead"
+msgstr "Subtítulo"
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:136
+msgid "Title"
+msgstr "Título"
+
+#: build/fleximple-blocks-recent-posts/index.js:2
+#: src/fleximple-blocks-recent-posts/components/recent-posts-preview.js:281
+msgid "Edit"
+msgstr "Editar"
+
+#. translators: %s: heading level e.g: "1", "2", "3"
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:151
+msgid "Main"
+msgstr "Principal"
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:153
+msgid "Number of items"
+msgstr "Número de elementos"
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:167
+msgid "Columns"
+msgstr "Columnas"
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:182
+msgid "Column gap"
+msgstr "Separación de columnas"
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:183
+msgid "Column gap unit"
+msgstr "Unidad de separación de columnas"
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:194
+msgid "Row gap"
+msgstr "Separación de filas"
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:195
+msgid "Row gap unit"
+msgstr "Unidad de separación de filas"
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:207
+msgid "Heading level"
+msgstr "Nivel de encabezado"
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:221
+msgid "Max number of words in excerpt"
+msgstr "Número máximo de palabras en el extracto"
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:230
+msgid "“nofollow” attribute"
+msgstr "Atributo “nofollow”"
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:239
+msgid "Google search spider should not follow the links to these posts."
+msgstr ""
+"La araña de búsqueda de Google no debe seguir los enlaces a estas "
+"publicaciones."
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:235
+msgid "Google search spider should follow the links to these posts."
+msgstr ""
+"La araña de búsqueda de Google debe seguir los enlaces a estas publicaciones."
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:246
+msgid "“noreferrer” attribute"
+msgstr "Atributo “noreferrer”"
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:255
+msgid ""
+"The browser should not send an HTTP referer header if the user follows the "
+"hyperlink."
+msgstr ""
+"El navegador no debe enviar un encabezado de referencia HTTP si el usuario "
+"sigue el hipervínculo."
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:251
+msgid ""
+"The browser should send an HTTP referer header if the user follows the "
+"hyperlink."
+msgstr ""
+"El navegador debe enviar un encabezado de referencia HTTP si el usuario "
+"sigue el hipervínculo."
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:263
+msgid "Sorting and filtering"
+msgstr "Orden y filtrado"
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:295
+msgid "Image width"
+msgstr "Ancho de imagen"
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:307
+msgid "Image size"
+msgstr "Tamaño de imagen"
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:311
+msgid "None"
+msgstr "Ninguna"
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:325
+msgid "Aspect ratio"
+msgstr "Relación de aspecto"
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:354
+msgid "Display"
+msgstr "Mostrar"
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:358
+msgid "Read more text"
+msgstr "Texto leer más"
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/components/recent-posts-select-control.js:71
+#: src/fleximple-blocks-recent-posts/edit.js:374
+msgid "Loading…"
+msgstr "Cargando…"
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/components/recent-posts-select-control.js:72
+#: src/fleximple-blocks-recent-posts/edit.js:387
+msgid "No posts found."
+msgstr "No se encontraron entradas."
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:405
+msgid "List view"
+msgstr "Vista de lista"
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:411
+msgid "Grid view"
+msgstr "Vista de grilla"
+
+#: src/fleximple-blocks-recent-posts/components/recent-posts-select-control.js:54
+msgid "Posts"
+msgstr "Entradas"
+
+#: src/fleximple-blocks-recent-posts/components/recent-posts-select-control.js:67
+msgid "Search a post…"
+msgstr "Busca una entrada…"
+
+#: build/fleximple-blocks-recent-posts/block.json
+#: src/fleximple-blocks-recent-posts/block.json
+msgctxt "block title"
+msgid "Recent Posts"
+msgstr "Entradas Recientes"
+
+#: build/fleximple-blocks-recent-posts/block.json
+#: src/fleximple-blocks-recent-posts/block.json
+msgctxt "block description"
+msgid "Display a list of your most recent posts."
+msgstr "Muestra una lista de tus entradas más recientes."
+
+#: build/fleximple-blocks-recent-posts/block.json
+#: src/fleximple-blocks-recent-posts/block.json
+msgctxt "block style label"
+msgid "Standard"
+msgstr "Estándar"
+
+#: build/fleximple-blocks-recent-posts/block.json
+#: src/fleximple-blocks-recent-posts/block.json
+msgctxt "block style label"
+msgid "Stacked"
+msgstr "Apilado"
+
+#~ msgid "A collection of flexible and simple Gutenberg blocks."
+#~ msgstr "Una colección de bloques flexibles y simples para Gutenberg."
+
+#~ msgid "Previous slide"
+#~ msgstr "Diapositiva anterior"
+
+#~ msgid "Next slide"
+#~ msgstr "Diapositiva siguiente"
+
+#~ msgid "Settings"
+#~ msgstr "Ajustes"
+
+#~ msgid "Small breakpoint value."
+#~ msgstr "Valor de punto de quiebre pequeño."
+
+#~ msgid "Medium breakpoint value."
+#~ msgstr "Valor de punto de quiebre medio."
+
+#~ msgid "Large breakpoint value."
+#~ msgstr "Valor de punto de quiebre grande."
+
+#~ msgid "Extra large breakpoint value."
+#~ msgstr "Valor de punto de quiebre extra grande."
+
+#~ msgid "Load Font Awesome."
+#~ msgstr "Cargar Font Awesome."
+
+#~ msgid "Load Leaflet."
+#~ msgstr "Cargar Leaflet."
+
+#~ msgid "Load Swiper."
+#~ msgstr "Cargar Swiper."
+
+#~ msgid "Open Weather API key."
+#~ msgstr "Clave de la API de Open Weather."
+
+#~ msgid "Breakpoints"
+#~ msgstr "Puntos de quiebre"
+
+#~ msgid ""
+#~ "Define the breakpoint values that will be used by the Fleximple Blocks."
+#~ msgstr ""
+#~ "Define los valores para los puntos de quiebre que serán usados por los "
+#~ "Fleximple Blocks."
+
+#~ msgid "Small breakpoint"
+#~ msgstr "Punto de quiebre pequeño"
+
+#~ msgid "In pixels."
+#~ msgstr "En píxeles."
+
+#~ msgid "Medium breakpoint"
+#~ msgstr "Punto de quiebre medio"
+
+#~ msgid "Large breakpoint"
+#~ msgstr "Punto de quiebre grande"
+
+#~ msgid "Extra large breakpoint"
+#~ msgstr "Punto de quiebre extra grande"
+
+#~ msgid "Save changes"
+#~ msgstr "Guardar cambios"
+
+#~ msgid "Third Parties"
+#~ msgstr "Terceros"
+
+#~ msgid "Load Font Awesome"
+#~ msgstr "Cargar Font Awesome"
+
+#~ msgid ""
+#~ "It’s only necessary for icons to work. Deactivate it if you won’t be "
+#~ "using them."
+#~ msgstr ""
+#~ "Sólo es necesario para que los íconos funcionen. Desactívalo si no vas a "
+#~ "utilizarlos."
+
+#~ msgid "Load Leaflet"
+#~ msgstr "Cargar Leaflet"
+
+#~ msgid ""
+#~ "It’s only necessary for maps to work. Deactivate it if you won’t be using "
+#~ "them."
+#~ msgstr ""
+#~ "Sólo es necesario para que los mapas funcionen. Desactívalo si no vas a "
+#~ "utilizarlos."
+
+#~ msgid "Load Swiper"
+#~ msgstr "Cargar Swiper"
+
+#~ msgid ""
+#~ "It’s only necessary for carousels to work. Deactivate it if you won’t be "
+#~ "using them."
+#~ msgstr ""
+#~ "Sólo es necesario para que los carruseles funcionen. Desactívalo si no "
+#~ "vas a utilizarlos."
+
+#~ msgid "Open Weather API key"
+#~ msgstr "Clave de la API de Open Weather"
+
+#~ msgid "Image"
+#~ msgstr "Imagen"
+
+#~ msgid "Replace image"
+#~ msgstr "Reemplazar imagen"
+
+#~ msgid "Choose image"
+#~ msgstr "Elegir imagen"
+
+#~ msgid "Remove image"
+#~ msgstr "Quitar imagen"
+
+#~ msgid "Size"
+#~ msgstr "Tamaño"
+
+#~ msgid "Link URL"
+#~ msgstr "URL del enlace"
+
+#~ msgid "Type the link URL…"
+#~ msgstr "Ingresa la URL del enlace…"
+
+#~ msgid "Link target"
+#~ msgstr "Destino del enlace"
+
+#~ msgid "Open in current tab"
+#~ msgstr "Abrir en pestaña actual"
+
+#~ msgid "Open in new tab"
+#~ msgstr "Abrir en pestaña nueva"
+
+#~ msgid "Ad"
+#~ msgstr "Anuncio"
+
+#~ msgid "Select an image to start with."
+#~ msgstr "Selecciona una imagen con la cual comenzar."
+
+#~ msgid ""
+#~ "Display an ad that can switch to different versions depending on the "
+#~ "screen size."
+#~ msgstr ""
+#~ "Muestra un anuncio que puede cambiar a diferentes versiones según el "
+#~ "tamaño de la pantalla."
+
+#~ msgid "advertisement"
+#~ msgstr "publicidad"
+
+#~ msgid "fleximple block"
+#~ msgstr "bloque fleximple"
+
+#~ msgid "Horizontal alignment"
+#~ msgstr "Alineación horizontal"
+
+#~ msgid "Border radius"
+#~ msgstr "Radio de esquinas"
+
+#~ msgid "Border radius unit"
+#~ msgstr "Unidad de radio de esquinas"
+
+#~ msgid "Button width"
+#~ msgstr "Ancho del botón"
+
+#~ msgid "Automatic"
+#~ msgstr "Automático"
+
+#~ msgid "Full"
+#~ msgstr "Completo"
+
+#~ msgid "Button title"
+#~ msgstr "Título de botón"
+
+#~ msgid "Type the button title…"
+#~ msgstr "Ingresa el título del botón…"
+
+#~ msgid "It will show to the user as a tooltip."
+#~ msgstr "Se mostrará al usuario en forma de descripción emergente."
+
+#~ msgid "Google search spider should follow the links to this post."
+#~ msgstr ""
+#~ "La araña de búsqueda de Google debe seguir los enlaces a estas "
+#~ "publicaciones."
+
+#~ msgid "Google search spider should not follow the links to this post."
+#~ msgstr ""
+#~ "La araña de búsqueda de Google no debe seguir los enlaces a estas "
+#~ "publicaciones."
+
+#~ msgid "Icon size"
+#~ msgstr "Tamaño de ícono"
+
+#~ msgid "Icon position"
+#~ msgstr "Posición de ícono"
+
+#~ msgid "Display icon only"
+#~ msgstr "Mostrar sólo el ícono"
+
+#~ msgid "Use custom icon"
+#~ msgstr "Utilizar ícono personalizado"
+
+#~ msgid "Custom icon"
+#~ msgstr "Ícono personalizado"
+
+#~ msgid "Insert the HTML code for your custom icon."
+#~ msgstr "Ingresa el código HTML para tu ícono personalizado."
+
+#~ msgid "Color"
+#~ msgstr "Color"
+
+#~ msgid "Spacing"
+#~ msgstr "Espaciado"
+
+#~ msgid "Write text…"
+#~ msgstr "Escribe el texto…"
+
+#~ msgid "Button"
+#~ msgstr "Botón"
+
+#~ msgid "Prompt visitors to take action with a button-style link."
+#~ msgstr ""
+#~ "Anima a los visitantes a realizar una acción a través de un grupo de "
+#~ "enlaces estilo botón."
+
+#~ msgid "Fill"
+#~ msgstr "Relleno"
+
+#~ msgid "Outline"
+#~ msgstr "Contorno"
+
+#~ msgid "Clear"
+#~ msgstr "Vacío"
+
+#~ msgid "Direction"
+#~ msgstr "Dirección"
+
+#~ msgid "Horizontal"
+#~ msgstr "Horizontal"
+
+#~ msgid "Vertical"
+#~ msgstr "Vertical"
+
+#~ msgid "Gap size"
+#~ msgstr "Tamaño de separación"
+
+#~ msgid "Gap size unit"
+#~ msgstr "Unidad de tamaño de separación"
+
+#~ msgid "Buttons"
+#~ msgstr "Botones"
+
+#~ msgid "Prompt visitors to take action with a group of button-style links."
+#~ msgstr ""
+#~ "Anima a los visitantes a realizar una acción a través de un grupo de "
+#~ "enlaces estilo botón."
+
+#~ msgid ""
+#~ "The single unit that works as the main structural component for the "
+#~ "contact information block."
+#~ msgstr ""
+#~ "La unidad individual que funciona como el componente estructural "
+#~ "principal para el bloque de información de contacto."
+
+#~ msgid "Items"
+#~ msgstr "Elementos"
+
+#~ msgid "Contact Info"
+#~ msgstr "Información de contacto"
+
+#~ msgid ""
+#~ "Display any blocks of your choosing separated in multiple slides, and "
+#~ "sequentially shown in a sliding motion."
+#~ msgstr ""
+#~ "Muestra cualquier bloque de tu elección separados en múltiples "
+#~ "diapositivas, y mostrados secuencialmente en un movimiento deslizante."
+
+#~ msgid "Date format"
+#~ msgstr "Formato de fecha"
+
+#~ msgid "Custom"
+#~ msgstr "Personalizado"
+
+#~ msgid "Custom date format"
+#~ msgstr "Formato personalizado de fecha"
+
+#~ msgid "Documentation on date and time formatting."
+#~ msgstr "Documentación sobre formato de fecha y hora."
+
+#~ msgid "Display time"
+#~ msgstr "Mostrar hora"
+
+#~ msgid "Time format"
+#~ msgstr "Formato de hora"
+
+#~ msgid "Custom time format"
+#~ msgstr "Formato personalizado de hora"
+
+#~ msgid "Separator"
+#~ msgstr "Separador"
+
+#~ msgid "Type in the date/time separator…"
+#~ msgstr "Ingresa el separador de fecha/hora…"
+
+#~ msgid "Date & Time"
+#~ msgstr "Fecha y hora"
+
+#~ msgid "Displays the current date and/or time based on your chosen settings."
+#~ msgstr "Muestra la fecha y/o la hora actual según la configuración elegida."
+
+#~ msgid "Text alignment"
+#~ msgstr "Alineación de texto"
+
+#~ msgid "Content gap size"
+#~ msgstr "Tamaño de separación de contenido"
+
+#~ msgid "Content gap size unit"
+#~ msgstr "Unidad de tamaño de separación de contenido"
+
+#~ msgid "Link title"
+#~ msgstr "Título del enlace"
+
+#~ msgid "Type the link title…"
+#~ msgstr "Ingresa el título del enlace…"
+
+#~ msgid ""
+#~ "Here you can provide a brief explanation about the link’s destination, "
+#~ "which is meant to be used by screen readers."
+#~ msgstr ""
+#~ "Aquí puedes proveer una breve explicación sobre el destino del enlace, la "
+#~ "cual será utilizada por los lectores de pantalla."
+
+#~ msgid "Feature"
+#~ msgstr "Característica"
+
+#~ msgid "Display an icon along with complementary text elements."
+#~ msgstr "Muestra un ícono justo a elementos de texto complementarios."
+
+#~ msgid "Write heading…"
+#~ msgstr "Escribe el encabezado…"
+
+#~ msgid "Write subhead…"
+#~ msgstr "Escribe el subtítulo…"
+
+#~ msgid "Header"
+#~ msgstr "Cabecera"
+
+#~ msgid ""
+#~ "Introduce new sections and organize content to help visitors (and search "
+#~ "engines) better understand the structure of your site."
+#~ msgstr ""
+#~ "Introduce nuevas secciones y organice contenido para ayudar a los "
+#~ "visitantes (y a los motores de búsqueda) a comprender mejor la estructura "
+#~ "de su sitio."
+
+#~ msgid "heading"
+#~ msgstr "encabezado"
+
+#~ msgid "title"
+#~ msgstr "título"
+
+#~ msgid "Custom Icon"
+#~ msgstr "Ícono personalizado"
+
+#~ msgid "Paste the code for your custom icon in here…"
+#~ msgstr "Pega aquí el código para tu ícono personalizado…"
+
+#~ msgid "Display an icon of your choosing."
+#~ msgstr "Muestra un ícono de tu elección."
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "Type the Iframe URL…"
+#~ msgstr "Ingresa la URL del Iframe…"
+
+#~ msgid "Width"
+#~ msgstr "Ancho"
+
+#~ msgid "Width unit"
+#~ msgstr "Unidad de ancho"
+
+#~ msgid "Height"
+#~ msgstr "Alto"
+
+#~ msgid "Height unit"
+#~ msgstr "Unidad de alto"
+
+#~ msgid "Adjust height automatically"
+#~ msgstr "Ajustar altura automáticamente"
+
+#~ msgid "Type the Iframe title…"
+#~ msgstr "Ingresa el título del Iframe…"
+
+#~ msgid ""
+#~ "An inline frame used to embed another document within the current "
+#~ "document."
+#~ msgstr ""
+#~ "Un marco en línea utilizado para incrustar otro documento dentro del "
+#~ "documento actual."
+
+#~ msgid "Iframe"
+#~ msgstr "Iframe"
+
+#~ msgid "Location"
+#~ msgstr "Ubicación"
+
+#~ msgid "Search for a location…"
+#~ msgstr "Busca una ubicación…"
+
+#~ msgid "No results found."
+#~ msgstr "No se encontraron resultados."
+
+#~ msgid "Zoom"
+#~ msgstr "Zoom"
+
+#~ msgid "Layer"
+#~ msgstr "Capa"
+
+#~ msgid "Black and white"
+#~ msgstr "Blanco y negro"
+
+#~ msgid "Humanitarian"
+#~ msgstr "Humanitaria"
+
+#~ msgid "Watercolor"
+#~ msgstr "Acuarela"
+
+#~ msgid "Display popup"
+#~ msgstr "Mostrar ventana emergente"
+
+#~ msgid "Click on the marker to display the popup."
+#~ msgstr "Has clic en el marcador para mostrar la ventana emergente."
+
+#~ msgid "Display zoom control"
+#~ msgstr "Mostrar control de zoom"
+
+#~ msgid "Display attribution control"
+#~ msgstr "Mostrar control de atribución"
+
+#~ msgid "Map"
+#~ msgstr "Mapa"
+
+#~ msgid "Embed a simple map with a location of your choosing."
+#~ msgstr "Incrusta un mapa sencillo con una ubicación de su elección."
+
+#~ msgid "Number of posts"
+#~ msgstr "Número de entradas"
+
+#~ msgid "Posts per view"
+#~ msgstr "Entradas por diapositiva"
+
+#~ msgid "Autoplay"
+#~ msgstr "Reproducción automática"
+
+#~ msgid "Loop"
+#~ msgstr "Bucle"
+
+#~ msgid "Speed"
+#~ msgstr "Velocidad"
+
+#~ msgid "In milliseconds."
+#~ msgstr "En milisegundos."
+
+#~ msgid "Delay"
+#~ msgstr "Demora"
+
+#~ msgid "Navigation"
+#~ msgstr "Navegación"
+
+#~ msgid "Pagination"
+#~ msgstr "Paginación"
+
+#~ msgid "Pagination type"
+#~ msgstr "Tipo de paginación"
+
+#~ msgid "Bullets"
+#~ msgstr "Viñetas"
+
+#~ msgid "Fraction"
+#~ msgstr "Fracción"
+
+#~ msgid "Progress bar"
+#~ msgstr "Barra de progreso"
+
+#~ msgid "Distance between slides"
+#~ msgstr "Distancia entre diapositivas"
+
+#~ msgid "Effect"
+#~ msgstr "Efecto"
+
+#~ msgid "Slide"
+#~ msgstr "Deslizar"
+
+#~ msgid "Fade"
+#~ msgstr "Desvanecer"
+
+#~ msgid "Flip"
+#~ msgstr "Voltear"
+
+#~ msgid "Coverflow"
+#~ msgstr "Flujo de portada"
+
+#~ msgid "Cube"
+#~ msgstr "Cubo"
+
+#~ msgid "Cards"
+#~ msgstr "Tarjetas"
+
+#~ msgid "Manually select posts"
+#~ msgstr "Elegir entradas manualmente"
+
+#~ msgid "Icons"
+#~ msgstr "Íconos"
+
+#~ msgid "Previous button"
+#~ msgstr "Botón anterior"
+
+#~ msgid "Next button"
+#~ msgstr "Botón siguiente"
+
+#~ msgid "Button icon size"
+#~ msgstr "Tamaño de ícono de botón"
+
+#~ msgid "Button icon"
+#~ msgstr "Ícono de botón"
+
+#~ msgid "Post Carousel"
+#~ msgstr "Carrusel de Entradas"
+
+#~ msgid "Post"
+#~ msgstr "Entrada"
+
+#~ msgid "Post type"
+#~ msgstr "Tipo de entrada"
+
+#~ msgid "Display a specific post or page."
+#~ msgstr "Muestra una entrada o página específica."
+
+#~ msgid "Write name…"
+#~ msgstr "Escribe el nombre…"
+
+#~ msgid "Write title…"
+#~ msgstr "Escribe el título…"
+
+#~ msgid "Write description…"
+#~ msgstr "Escribe la descripción…"
+
+#~ msgid "Media gap size"
+#~ msgstr "Tamaño de separación de multimedia"
+
+#~ msgid "Media gap size unit"
+#~ msgstr "Unidad de tamaño de separación de multimedia"
+
+#~ msgid "Reverse order"
+#~ msgstr "Orden inverso"
+
+#~ msgid "Choose profile image"
+#~ msgstr "Elegir imagen de perfil"
+
+#~ msgid "Media width"
+#~ msgstr "Ancho de multimedia"
+
+#~ msgid "Media width unit"
+#~ msgstr "Unidad de ancho de multimedia"
+
+#~ msgid "Media height"
+#~ msgstr "Alto de multimedia"
+
+#~ msgid "Media height unit"
+#~ msgstr "Unidad de alto de multimedia"
+
+#~ msgid "Profile"
+#~ msgstr "Perfil"
+
+#~ msgid "Introduce your staff members to your visitors."
+#~ msgstr "Presenta a los miembros de tu personal a tus visitantes."
+
+#~ msgid "Write content…"
+#~ msgstr "Escribe el contenido…"
+
+#~ msgid "Row ID"
+#~ msgstr "ID de fila"
+
+#~ msgid "Type the row ID…"
+#~ msgstr "Ingresa el ID de fila…"
+
+#~ msgid "HTML Tag"
+#~ msgstr "Etiqueta HTML"
+
+#~ msgid "Vertical alignment"
+#~ msgstr "Alineación vertical"
+
+#~ msgid "Background"
+#~ msgstr "Fondo"
+
+#~ msgid "Media Size"
+#~ msgstr "Tamaño de multimedia"
+
+#~ msgid "Auto"
+#~ msgstr "Automático"
+
+#~ msgid "Cover"
+#~ msgstr "Cubrir"
+
+#~ msgid "Contain"
+#~ msgstr "Contener"
+
+#~ msgid "Repeat"
+#~ msgstr "Repetir"
+
+#~ msgid "Repeat X"
+#~ msgstr "Repetir X"
+
+#~ msgid "Repeat Y"
+#~ msgstr "Repetir Y"
+
+#~ msgid "No repeat"
+#~ msgstr "No repetir"
+
+#~ msgid "Fixed background"
+#~ msgstr "Fondo fijo"
+
+#~ msgid "Overlay"
+#~ msgstr "Capa superpuesta"
+
+#~ msgid "Overlay opacity"
+#~ msgstr "Opacidad de capa superpuesta"
+
+#~ msgid "Row"
+#~ msgstr "Fila"
+
+#~ msgid "Organize and structure your content within this feature-rich block."
+#~ msgstr ""
+#~ "Organiza y estructura tu contenido dentro de este bloque rico en "
+#~ "funciones."
+
+#~ msgid ""
+#~ "The single unit that works as the main structural component for the tabs "
+#~ "block."
+#~ msgstr ""
+#~ "La unidad individual que funciona como el componente estructural "
+#~ "principal para el bloque de pestañas."
+
+#~ msgid "Add content…"
+#~ msgstr "Añade el contenido…"
+
+#~ msgid "Tab"
+#~ msgstr "Pestaña"
+
+#~ msgid "Sort tab"
+#~ msgstr "Ordenar pestaña"
+
+#~ msgid "Write tab title…"
+#~ msgstr "Escribe el título de la pestaña…"
+
+#~ msgid "Remove tab"
+#~ msgstr "Quitar pestaña"
+
+#~ msgid "Add tab"
+#~ msgstr "Añadir pestaña"
+
+#~ msgid "Tabs"
+#~ msgstr "Pestañas"
+
+#~ msgid "Divide and organize your content through tabs."
+#~ msgstr "Divide y organiza tu contenido a través de pestañas."
+
+#~ msgid "Underlined"
+#~ msgstr "Subrayado"
+
+#~ msgid "Pills"
+#~ msgstr "Pastillas"
+
+#~ msgid "Write quote…"
+#~ msgstr "Escribe la cita…"
+
+#~ msgid "Choose testimonial image"
+#~ msgstr "Elegir imagen de testimonio"
+
+#~ msgid "Write reference…"
+#~ msgstr "Escribe la referencia…"
+
+#~ msgid "Testimonial"
+#~ msgstr "Testimonio"
+
+#~ msgid "Present your customers thoughts of your products and/or services."
+#~ msgstr ""
+#~ "Muestra la opinión de tus clientes acerca de tus productos y/o servicios."
+
+#~ msgid "Afrikaans"
+#~ msgstr "Africaans"
+
+#~ msgid "Albanian"
+#~ msgstr "Albanés"
+
+#~ msgid "Arabic"
+#~ msgstr "Árabe"
+
+#~ msgid "Azerbaijani"
+#~ msgstr "Azerbaiyano"
+
+#~ msgid "Bulgarian"
+#~ msgstr "Búlgaro"
+
+#~ msgid "Catalan"
+#~ msgstr "Catalán"
+
+#~ msgid "Czech"
+#~ msgstr "Checo"
+
+#~ msgid "Danish"
+#~ msgstr "Danés"
+
+#~ msgid "German"
+#~ msgstr "Alemán"
+
+#~ msgid "Greek"
+#~ msgstr "Griego"
+
+#~ msgid "English"
+#~ msgstr "Inglés"
+
+#~ msgid "Basque"
+#~ msgstr "Basco"
+
+#~ msgid "Persian (Farsi)"
+#~ msgstr "Persa (farsi)"
+
+#~ msgid "Finnish"
+#~ msgstr "Finlandés"
+
+#~ msgid "French"
+#~ msgstr "Francés"
+
+#~ msgid "Galician"
+#~ msgstr "Gallego"
+
+#~ msgid "Hebrew"
+#~ msgstr "Hebreo"
+
+#~ msgid "Hindi"
+#~ msgstr "Hindi"
+
+#~ msgid "Croatian"
+#~ msgstr "Croata"
+
+#~ msgid "Hungarian"
+#~ msgstr "Húngaro"
+
+#~ msgid "Indonesian"
+#~ msgstr "Indonés"
+
+#~ msgid "Italian"
+#~ msgstr "Italiano"
+
+#~ msgid "Japanese"
+#~ msgstr "Japonés"
+
+#~ msgid "Korean"
+#~ msgstr "Coreano"
+
+#~ msgid "Latvian"
+#~ msgstr "Letón"
+
+#~ msgid "Lithuanian"
+#~ msgstr "Lituano"
+
+#~ msgid "Macedonian"
+#~ msgstr "Macedonio"
+
+#~ msgid "Norwegian"
+#~ msgstr "Noruego"
+
+#~ msgid "Dutch"
+#~ msgstr "Holandés"
+
+#~ msgid "Polish"
+#~ msgstr "Polaco"
+
+#~ msgid "Portuguese"
+#~ msgstr "Portugués"
+
+#~ msgid "Portuguese (Brasil)"
+#~ msgstr "Portugués (Brasil)"
+
+#~ msgid "Romanian"
+#~ msgstr "Rumano"
+
+#~ msgid "Russian"
+#~ msgstr "Ruso"
+
+#~ msgid "Swedish"
+#~ msgstr "Sueco"
+
+#~ msgid "Slovak"
+#~ msgstr "Eslovaco"
+
+#~ msgid "Slovenian"
+#~ msgstr "Esloveno"
+
+#~ msgid "Spanish"
+#~ msgstr "Español"
+
+#~ msgid "Serbian"
+#~ msgstr "Serbio"
+
+#~ msgid "Thai"
+#~ msgstr "Tailandés"
+
+#~ msgid "Turkish"
+#~ msgstr "Turco"
+
+#~ msgid "Ukrainian"
+#~ msgstr "Ucraniano"
+
+#~ msgid "Vietnamese"
+#~ msgstr "Vietnamita"
+
+#~ msgid "Chinese Simplified"
+#~ msgstr "Chino simplificado"
+
+#~ msgid "Chinese Traditional"
+#~ msgstr "Chino tradicional"
+
+#~ msgid "Zulu"
+#~ msgstr "Zulú"
+
+#~ msgid "Short name"
+#~ msgstr "Nombre corto"
+
+#~ msgid ""
+#~ "The short name will be used in replacement of the name in small devices."
+#~ msgstr ""
+#~ "El nombre corto se usará en reemplazo del nombre en dispositivos pequeños."
+
+#~ msgid "Display units"
+#~ msgstr "Mostrar unidades"
+
+#~ msgid "Units"
+#~ msgstr "Unidades"
+
+#~ msgid "Metric"
+#~ msgstr "Métricas"
+
+#~ msgid "Imperial"
+#~ msgstr "Imperiales"
+
+#~ msgid "Kelvin"
+#~ msgstr "Kelvin"
+
+#~ msgid "Language"
+#~ msgstr "Idioma"
+
+#~ msgid ""
+#~ "To make use of this block, you first need to set an OpenWeatherMap API "
+#~ "key in the Fleximple Blocks settings page."
+#~ msgstr ""
+#~ "Para hacer uso de este bloque, primero debe establecer una clave de API "
+#~ "openWeatherMap en la página de configuración de Fleximple Blocks."
+
+#~ msgid "Take me there."
+#~ msgstr "Llévame allí."
+
+#~ msgid "Weather"
+#~ msgstr "Clima"
+
+#~ msgid "Display the weather conditions for a chosen location."
+#~ msgstr "Muestra las condiciones meteorológicas de una ubicación elegida."
+
+#~ msgid "Animation"
+#~ msgstr "Animación"
+
+#~ msgid "On scroll animation"
+#~ msgstr "Animación en desplazamiento"
+
+#~ msgid "— Attention seekers —"
+#~ msgstr "— Buscadores de atención —"
+
+#~ msgid "Bounce"
+#~ msgstr "Rebote"
+
+#~ msgid "Flash"
+#~ msgstr "Destello"
+
+#~ msgid "Head shake"
+#~ msgstr "Sacudida de cabeza"
+
+#~ msgid "Heartbeat"
+#~ msgstr "Latido"
+
+#~ msgid "Jello"
+#~ msgstr "Gelatina"
+
+#~ msgid "Pulse"
+#~ msgstr "Pulso"
+
+#~ msgid "Rubber band"
+#~ msgstr "Banda elástica"
+
+#~ msgid "Shake"
+#~ msgstr "Sacudida"
+
+#~ msgid "Shake X"
+#~ msgstr "Sacudida en X"
+
+#~ msgid "Shake Y"
+#~ msgstr "Sacudida en Y"
+
+#~ msgid "Swing"
+#~ msgstr "Balanceo"
+
+#~ msgid "Ta-da"
+#~ msgstr "Ta-ran"
+
+#~ msgid "Wobble"
+#~ msgstr "Tambaleo"
+
+#~ msgid "— Back entrances —"
+#~ msgstr "— Entradas traseras —"
+
+#~ msgid "— Back exits —"
+#~ msgstr "— Salidas traseras —"
+
+#~ msgid "— Bouncing entrances —"
+#~ msgstr "— Entradas rebotantes —"
+
+#~ msgid "Bounce in"
+#~ msgstr "Entrar rebotando"
+
+#~ msgid "— Bouncing exits —"
+#~ msgstr "— Salidas rebotantes —"
+
+#~ msgid "— Fading entrances —"
+#~ msgstr "— Entradas desvanecientes —"
+
+#~ msgid "— Fading exits —"
+#~ msgstr "— Salidas desvanecientes —"
+
+#~ msgid "— Light speed —"
+#~ msgstr "— A la velocidad de la luz —"
+
+#~ msgid "— Rotating entrances —"
+#~ msgstr "— Entradas rotantes —"
+
+#~ msgid "— Rotating exits —"
+#~ msgstr "— Salidas rotantes —"
+
+#~ msgid "— Sliding entrances —"
+#~ msgstr "— Entradas deslizantes —"
+
+#~ msgid "— Sliding exits —"
+#~ msgstr "— Salidas deslizantes —"
+
+#~ msgid "— Specials —"
+#~ msgstr "— Especiales —"
+
+#~ msgid "Hinge"
+#~ msgstr "Bisagra"
+
+#~ msgid "Jack in the box"
+#~ msgstr "Caja sorpresa"
+
+#~ msgid "— Zooming entrances —"
+#~ msgstr "— Entradas acercantes —"
+
+#~ msgid "— Zooming exits —"
+#~ msgstr "— Salidas distanciantes —"
+
+#~ msgid "1 second"
+#~ msgstr "1 segundo"
+
+#~ msgid "2 seconds"
+#~ msgstr "2 segundos"
+
+#~ msgid "3 seconds"
+#~ msgstr "3 segundos"
+
+#~ msgid "4 seconds"
+#~ msgstr "4 segundos"
+
+#~ msgid "5 seconds"
+#~ msgstr "5 segundos"
+
+#~ msgid "Duration"
+#~ msgstr "Duración"
+
+#~ msgid "Faster"
+#~ msgstr "Más rápido"
+
+#~ msgid "Fast"
+#~ msgstr "Rápido"
+
+#~ msgid "Default"
+#~ msgstr "Por defecto"
+
+#~ msgid "Slow"
+#~ msgstr "Lento"
+
+#~ msgid "Slower"
+#~ msgstr "Más lento"
+
+#~ msgid "1 time"
+#~ msgstr "1 vez"
+
+#~ msgid "2 times"
+#~ msgstr "2 veces"
+
+#~ msgid "3 times"
+#~ msgstr "3 veces"
+
+#~ msgid "Infinitely"
+#~ msgstr "Indefinidamente"
+
+#~ msgid "Align start"
+#~ msgstr "Alinear al inicio"
+
+#~ msgid "Align center"
+#~ msgstr "Alinear al centro"
+
+#~ msgid "Align end"
+#~ msgstr "Alinear al final"
+
+#~ msgid "Align space evenly"
+#~ msgstr "Alinear espacio uniforme"
+
+#~ msgid "Align space around"
+#~ msgstr "Alinear espacio alrededor"
+
+#~ msgid "Align space between"
+#~ msgstr "Alinear espacio en medio"
+
+#~ msgid "Change horizontal alignment"
+#~ msgstr "Cambiar alineación horizontal"
+
+#~ msgid "Align top"
+#~ msgstr "Alinear a la parte superior"
+
+#~ msgid "Align bottom"
+#~ msgstr "Alinear a la parte inferior"
+
+#~ msgid "Change vertical alignment"
+#~ msgstr "Cambiar alineación vertical"
+
+#~ msgid "Offset"
+#~ msgstr "Deducción"
+
+#~ msgid "Include category…"
+#~ msgstr "Incluir categoría…"
+
+#~ msgid "Excluded categories"
+#~ msgstr "Excluir categorías"
+
+#~ msgid "Exclude category…"
+#~ msgstr "Excluir categoría…"
+
+#~ msgid "Minimum height"
+#~ msgstr "Alto mínimo"
+
+#~ msgid "Minimum height unit"
+#~ msgstr "Unidad de alto mínimo"
+
+#~ msgid "Content width"
+#~ msgstr "Ancho de contenido"
+
+#~ msgid "Content width unit"
+#~ msgstr "Unidad de ancho de contenido"
+
+#~ msgid "Content gap"
+#~ msgstr "Separación de contenido"
+
+#~ msgid "Content gap unit"
+#~ msgstr "Unidad de separación de contenido"
+
+#~ msgid "Margin"
+#~ msgstr "Margen"
+
+#~ msgid "Margin unit"
+#~ msgstr "Unidad de margen"
+
+#~ msgid "Top margin"
+#~ msgstr "Margen superior"
+
+#~ msgid "Top margin unit"
+#~ msgstr "Unidad de margen superior"
+
+#~ msgid "Left margin"
+#~ msgstr "Margen izquierdo"
+
+#~ msgid "Left margin unit"
+#~ msgstr "Unidad de margen izquierdo"
+
+#~ msgid "Right margin"
+#~ msgstr "Margen derecho"
+
+#~ msgid "Right margin unit"
+#~ msgstr "Unidad de margen derecho"
+
+#~ msgid "Bottom margin"
+#~ msgstr "Margen inferior"
+
+#~ msgid "Bottom margin unit"
+#~ msgstr "Unidad de margen inferior"
+
+#~ msgid "Padding"
+#~ msgstr "Relleno"
+
+#~ msgid "Padding unit"
+#~ msgstr "Unidad de relleno"
+
+#~ msgid "Top padding"
+#~ msgstr "Relleno superior"
+
+#~ msgid "Top padding unit"
+#~ msgstr "Unidad de relleno superior"
+
+#~ msgid "Left padding"
+#~ msgstr "Relleno izquierdo"
+
+#~ msgid "Left padding unit"
+#~ msgstr "Unidad de relleno izquierdo"
+
+#~ msgid "Right padding"
+#~ msgstr "Relleno derecho"
+
+#~ msgid "Right padding unit"
+#~ msgstr "Unidad de relleno derecho"
+
+#~ msgid "Bottom padding"
+#~ msgstr "Relleno inferior"
+
+#~ msgid "Bottom padding unit"
+#~ msgstr "Unidad de relleno inferior"
+
+#~ msgid "Type the icon name…"
+#~ msgstr "Ingresa el nombre de ícono…"
+
+#~ msgid "No icons found."
+#~ msgstr "No se encontraron íconos."
+
+#~ msgid "Select icon"
+#~ msgstr "Elegir ícono"
+
+#~ msgid "Kicker"
+#~ msgstr "Volanta"
+
+#~ msgid "Write a kicker (optional)"
+#~ msgstr "Escribe una volanta (opcional)"
+
+#~ msgid ""
+#~ "The single unit that works as the main structural component for the "
+#~ "slider block."
+#~ msgstr ""
+#~ "La unidad única que funciona como el componente estructural principal "
+#~ "para el bloque deslizador."
+
+#~ msgid "Slides"
+#~ msgstr "Diapositivas"
+
+#~ msgid "Slides per view"
+#~ msgstr "Diapositivas por vista"
+
+#~ msgid "Slider"
+#~ msgstr "Deslizador"
+
+#~ msgid "Align left"
+#~ msgstr "Alinear a la izquierda"
+
+#~ msgid "API key"
+#~ msgstr "Clave de la API"
+
+#~ msgid "Thumbnail"
+#~ msgstr "Miniatura"
+
+#~ msgid "Medium"
+#~ msgstr "Medio"
+
+#~ msgid "Large"
+#~ msgstr "Grande"
+
+#~ msgid "Choose background image"
+#~ msgstr "Elegir imagen de fondo"
+
+#~ msgid "Distribute left"
+#~ msgstr "Distribuir a la izquierda"
+
+#~ msgid "Distribute center"
+#~ msgstr "Distribuir al centro"
+
+#~ msgid "Distribute right"
+#~ msgstr "Distribuir a la derecha"
+
+#~ msgid "Distribute full"
+#~ msgstr "Distribuir de lado a lado"
+
+#~ msgid "Change distribution"
+#~ msgstr "Cambiar distribución"
+
+#~ msgid "Apply"
+#~ msgstr "Aplicar"
+
+#~ msgid "More options"
+#~ msgstr "Más opciones"
+
+#~ msgid "Open in modal window"
+#~ msgstr "Abrir en ventana modal"
+
+#~ msgid "Set image"
+#~ msgstr "Establecer imagen"
+
+#, fuzzy
+#~| msgid "Small breakpoint"
+#~ msgid "Small large breakpoint"
+#~ msgstr "Punto de quiebre pequeño"
+
+#, fuzzy
+#~| msgid "Medium breakpoint"
+#~ msgid "Medium large breakpoint"
+#~ msgstr "Punto de quiebre medio"
+
+#~ msgid "Orientation"
+#~ msgstr "Orientación"
+
+#~ msgid "Display description"
+#~ msgstr "Mostrar descripción"
+
+#~ msgid "Display button"
+#~ msgstr "Mostrar botón"
+
+#~ msgid "500 ms"
+#~ msgstr "500 ms"
+
+#~ msgid "800 ms"
+#~ msgstr "800 ms"
+
+#~ msgid "2000 ms"
+#~ msgstr "2000 ms"
+
+#~ msgid "3000 ms"
+#~ msgstr "3000 ms"
+
+#~ msgid "Opacity"
+#~ msgstr "Opacidad"
+
+#~ msgid "Add a heading…"
+#~ msgstr "Añadir encabezado…"
+
+#~ msgid "Add a paragraph…"
+#~ msgstr "Añadir párrafo…"
+
+#~ msgid "Select a category to include…"
+#~ msgstr "Elegir una categoría para incluir…"
+
+#~ msgid "Select a category to exclude…"
+#~ msgstr "Elegir una categoría para excluir…"
+
+#~ msgid "Text"
+#~ msgstr "Texto"
+
+#~ msgid "Call to action"
+#~ msgstr "Llamada a la acción"
+
+#~ msgid "Heading Level"
+#~ msgstr "Nivel de encabezado"
+
+#~ msgid "Popup content"
+#~ msgstr "Contenido emergente"
+
+#~ msgid "Tab Panel"
+#~ msgstr "Panel de Pestaña"
+
+#~ msgid "Heading %d"
+#~ msgstr "Encabezado %d"
+
+#~ msgid "Change heading level"
+#~ msgstr "Cambiar nivel de encabezado"
+
+#~ msgid "Order by"
+#~ msgstr "Ordenar por"
+
+#~ msgid "Newest to oldest"
+#~ msgstr "Más reciente a más antiguo"
+
+#~ msgid "Oldest to newest"
+#~ msgstr "Más antiguo a más reciente"
+
+#~ msgid "A → Z"
+#~ msgstr "A → Z"
+
+#~ msgid "Z → A"
+#~ msgstr "Z → A"
+
+#~ msgid "Placeholder image"
+#~ msgstr "Imagen de referencia"
+
+#~ msgid "Post titles"
+#~ msgstr "Títulos de entradas"
+
+#~ msgid "Post title"
+#~ msgstr "Títulos de entrada"
+
+#~ msgid "Type to start searching…"
+#~ msgstr "Escribe para iniciar la búsqueda…"
+
+#~ msgid "Display media "
+#~ msgstr "Mostrar multimedia"
+
+#~ msgid "Hide media "
+#~ msgstr "Ocultar multimedia"
+
+#~ msgid "Align Center"
+#~ msgstr "Alinear al centro"
+
+#~ msgid "Align Space Evenly"
+#~ msgstr "Alinear espacio uniforme"
+
+#~ msgid "Align Space Around"
+#~ msgstr "Alinear espacio alrededor"
+
+#~ msgid "Align Space Between"
+#~ msgstr "Alinear espacio en medio"
+
+#~ msgid "Button icons size"
+#~ msgstr "Tamaño de ícono de botones"
+
+#~ msgid "Icon Size"
+#~ msgstr "Tamaño de ícono"
+
+#~ msgid "Icon Color"
+#~ msgstr "Color de ícono"

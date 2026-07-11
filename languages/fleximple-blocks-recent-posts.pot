@@ -1,0 +1,521 @@
+# Copyright (C) 2026 Rodrigo D’Agostino
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Fleximple Blocks: Recent Posts 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fleximple-blocks-recent-posts\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-07-11T04:24:37+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: fleximple-blocks-recent-posts\n"
+
+#. Plugin Name of the plugin
+#: fleximple-blocks-recent-posts.php
+msgid "Fleximple Blocks: Recent Posts"
+msgstr ""
+
+#. Description of the plugin
+#: fleximple-blocks-recent-posts.php
+msgid "Display a list of your most recent posts."
+msgstr ""
+
+#. Author of the plugin
+#: fleximple-blocks-recent-posts.php
+msgid "Rodrigo D’Agostino"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/render.php:84
+#: src/fleximple-blocks-recent-posts/render.php:84
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/recent-posts-preview.js:148
+msgid "Category:"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/render.php:101
+#: src/fleximple-blocks-recent-posts/render.php:101
+msgid "(no title)"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/render.php:127
+#: src/fleximple-blocks-recent-posts/render.php:127
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/recent-posts-preview.js:205
+msgid "Published by:"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/render.php:139
+#: src/fleximple-blocks-recent-posts/render.php:139
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/recent-posts-preview.js:220
+msgid "Published on:"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/render.php:148
+#: src/fleximple-blocks-recent-posts/render.php:148
+#, php-format
+msgid "%d comment"
+msgid_plural "%d comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:20
+msgid "Display additional content"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:21
+msgid "Hide additional content"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:24
+msgid "Display audio"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:25
+msgid "Hide audio"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:28
+msgid "Display author"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:29
+msgid "Hide author"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:32
+msgid "Display categories"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:33
+msgid "Hide categories"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:36
+msgid "Display comments"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:37
+msgid "Hide comments"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:40
+msgid "Display content"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:41
+msgid "Hide content"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:44
+msgid "Display date"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:45
+msgid "Hide date"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:48
+msgid "Display excerpt"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:49
+msgid "Hide excerpt"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:52
+msgid "Display extra articles"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:53
+msgid "Hide extra articles"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:56
+msgid "Display featured image"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:57
+msgid "Hide featured image"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:60
+msgid "Display heading"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:61
+msgid "Hide heading"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:64
+msgid "Display icon"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:65
+msgid "Hide icon"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:68
+msgid "Display media"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:69
+msgid "Hide media"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:72
+msgid "Display meta"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:73
+msgid "Hide meta"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:76
+msgid "Display quote"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:77
+msgid "Hide quote"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:80
+msgid "Display read more"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:81
+msgid "Hide read more"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:84
+msgid "Display reference"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:85
+msgid "Hide reference"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:88
+msgid "Display subhead"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:89
+msgid "Hide subhead"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:92
+msgid "Display title"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:93
+msgid "Hide title"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:100
+msgid "Additional content"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:102
+msgid "Author"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:104
+msgid "Audio"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:106
+msgid "Categories"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:108
+msgid "Comments"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:110
+msgid "Content"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:112
+msgid "Date"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:114
+msgid "Excerpt"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:116
+msgid "Extra articles"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:118
+msgid "Featured image"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:120
+msgid "Heading"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:122
+msgid "Icon"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:124
+#: src/fleximple-blocks-recent-posts/edit.js:291
+msgid "Media"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:126
+msgid "Meta"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:128
+msgid "Quote"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:130
+msgid "Read more"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:132
+msgid "Reference"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:134
+msgid "Subhead"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:1
+#: src/fleximple-blocks-recent-posts/components/sortable-control.js:136
+msgid "Title"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:2
+#: src/fleximple-blocks-recent-posts/components/recent-posts-preview.js:281
+msgid "Edit"
+msgstr ""
+
+#. translators: %s: heading level e.g: "1", "2", "3"
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:151
+msgid "Main"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:153
+msgid "Number of items"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:167
+msgid "Columns"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:182
+msgid "Column gap"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:183
+msgid "Column gap unit"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:194
+msgid "Row gap"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:195
+msgid "Row gap unit"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:207
+msgid "Heading level"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:221
+msgid "Max number of words in excerpt"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:230
+msgid "“nofollow” attribute"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:239
+msgid "Google search spider should not follow the links to these posts."
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:235
+msgid "Google search spider should follow the links to these posts."
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:246
+msgid "“noreferrer” attribute"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:255
+msgid "The browser should not send an HTTP referer header if the user follows the hyperlink."
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:251
+msgid "The browser should send an HTTP referer header if the user follows the hyperlink."
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:263
+msgid "Sorting and filtering"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:295
+msgid "Image width"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:307
+msgid "Image size"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:311
+msgid "None"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:325
+msgid "Aspect ratio"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:354
+msgid "Display"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:358
+msgid "Read more text"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/components/recent-posts-select-control.js:71
+#: src/fleximple-blocks-recent-posts/edit.js:374
+msgid "Loading…"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/components/recent-posts-select-control.js:72
+#: src/fleximple-blocks-recent-posts/edit.js:387
+msgid "No posts found."
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:405
+msgid "List view"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/index.js:11
+#: src/fleximple-blocks-recent-posts/edit.js:411
+msgid "Grid view"
+msgstr ""
+
+#: src/fleximple-blocks-recent-posts/components/recent-posts-select-control.js:54
+msgid "Posts"
+msgstr ""
+
+#: src/fleximple-blocks-recent-posts/components/recent-posts-select-control.js:67
+msgid "Search a post…"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/block.json
+#: src/fleximple-blocks-recent-posts/block.json
+msgctxt "block title"
+msgid "Recent Posts"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/block.json
+#: src/fleximple-blocks-recent-posts/block.json
+msgctxt "block description"
+msgid "Display a list of your most recent posts."
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/block.json
+#: src/fleximple-blocks-recent-posts/block.json
+msgctxt "block style label"
+msgid "Standard"
+msgstr ""
+
+#: build/fleximple-blocks-recent-posts/block.json
+#: src/fleximple-blocks-recent-posts/block.json
+msgctxt "block style label"
+msgid "Stacked"
+msgstr ""
