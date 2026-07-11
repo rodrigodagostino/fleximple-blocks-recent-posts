@@ -142,7 +142,7 @@ export default function RecentPostsEdit({
 	}, []);
 
 	useEffect(() => {
-		setAttributes({ blockId: clientId });
+		if (attributes.blockId !== clientId) setAttributes({ blockId: clientId });
 	}, [clientId]);
 
 	const hasPosts = Array.isArray(recentPosts) && recentPosts.length;
