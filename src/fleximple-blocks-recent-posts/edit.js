@@ -12,7 +12,7 @@ import {
 	SelectControl,
 	TextControl,
 	ToggleControl,
-	Toolbar,
+	ToolbarGroup,
 } from '@wordpress/components';
 import { useInstanceId } from '@wordpress/compose';
 import { store as coreStore } from '@wordpress/core-data';
@@ -151,9 +151,10 @@ export default function RecentPostsEdit({
 			<PanelBody title={__('Main', 'fleximple-blocks-recent-posts')}>
 				<RangeControl
 					label={__('Number of items', 'fleximple-blocks-recent-posts')}
+					value={postsToShow}
 					min={1}
 					max={100}
-					value={postsToShow}
+					__next40pxDefaultSize
 					onChange={(value) => setAttributes({ postsToShow: value })}
 					required
 				/>
@@ -162,13 +163,14 @@ export default function RecentPostsEdit({
 						<>
 							{layout === 'grid' && (
 								<RangeControl
-									label={__('Columns', 'fleximple-blocks-recent-posts')}
 									className="gap-v-small"
+									label={__('Columns', 'fleximple-blocks-recent-posts')}
+									value={columns[tab.name]}
 									min={1}
 									max={
 										!hasPosts ? MAX_POSTS_COLUMNS : Math.min(MAX_POSTS_COLUMNS, recentPosts.length)
 									}
-									value={columns[tab.name]}
+									__next40pxDefaultSize
 									onChange={(value) => {
 										setResponsiveAttribute(attributes, setAttributes, 'columns', tab.name, value);
 									}}
@@ -218,9 +220,10 @@ export default function RecentPostsEdit({
 					<RangeControl
 						label={__('Max number of words in excerpt', 'fleximple-blocks-recent-posts')}
 						value={excerptLength}
-						onChange={(value) => setAttributes({ excerptLength: value })}
 						min={10}
 						max={100}
+						__next40pxDefaultSize
+						onChange={(value) => setAttributes({ excerptLength: value })}
 					/>
 				)}
 				<ToggleControl
@@ -288,12 +291,13 @@ export default function RecentPostsEdit({
 				<PanelBody title={__('Media', 'fleximple-blocks-recent-posts')} initialOpen={false}>
 					{'list' === layout && (
 						<RangeControl
-							label={__('Image width', 'fleximple-blocks-recent-posts')}
 							className="gap-v-small"
+							label={__('Image width', 'fleximple-blocks-recent-posts')}
 							value={imageWidth}
-							onChange={(value) => setAttributes({ imageWidth: value })}
 							min={10}
 							max={90}
+							__next40pxDefaultSize
+							onChange={(value) => setAttributes({ imageWidth: value })}
 						/>
 					)}
 					<ResponsiveSettingsTabPanel initialTabName="medium">
@@ -312,6 +316,7 @@ export default function RecentPostsEdit({
 											value: size.slug,
 										})),
 									]}
+									__next40pxDefaultSize
 									onChange={(value) => {
 										setResponsiveAttribute(attributes, setAttributes, 'imageSize', tab.name, value);
 									}}
@@ -330,6 +335,7 @@ export default function RecentPostsEdit({
 										{ label: '2:1', value: '2-1' },
 										{ label: '3:1', value: '3-1' },
 									]}
+									__next40pxDefaultSize
 									onChange={(value) => {
 										setResponsiveAttribute(
 											attributes,
@@ -417,7 +423,7 @@ export default function RecentPostsEdit({
 					onChange={(value) => setAttributes({ headingLevel: value })}
 				/>
 
-				<Toolbar controls={layoutControls} />
+				<ToolbarGroup controls={layoutControls} />
 			</BlockControls>
 			<RecentPostsPreview posts={posts} mediaItems={mediaItems} {...{ className, attributes }} />
 		</>
