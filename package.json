@@ -1,0 +1,40 @@
+{
+	"name": "fleximple-blocks-recent-posts",
+	"version": "0.1.0",
+	"description": "A Gutenberg block that displays a specific post or page.",
+	"author": "Rodrigo D’Agostino <rodrigo.dagostino@proton.me>",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rodrigodagostino/fleximple-blocks-recent-posts.git"
+	},
+	"scripts": {
+		"build": "wp-scripts build --webpack-copy-php --blocks-manifest",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start --webpack-copy-php --blocks-manifest",
+		"makepot": "wp i18n make-pot . languages/fleximple-blocks-recent-posts.pot",
+		"makepo": "cp languages/fleximple-blocks-recent-posts.pot languages/fleximple-blocks-recent-posts-es_ES.po",
+		"updatepo": "wp i18n update-po languages/fleximple-blocks-recent-posts-es_ES.po",
+		"makemo": "wp i18n make-mo languages/fleximple-blocks-recent-posts-es_ES.po",
+		"makejson": "wp i18n make-json languages/fleximple-blocks-recent-posts-es_ES.po --no-purge"
+	},
+	"devDependencies": {
+		"@types/react": "18.3.29",
+		"@wordpress/eslint-plugin": "25.2.0",
+		"@wordpress/scripts": "31.2.0",
+		"array-move": "4.0.0",
+		"eslint-config-prettier": "^10.1.8",
+		"eslint-plugin-prettier": "^5.5.5",
+		"lodash.times": "4.3.2",
+		"memize": "2.1.1",
+		"prettier": "3.8.3"
+	},
+	"dependencies": {
+		"fleximple-components": "file:../fleximple-components"
+	}
+}
