@@ -5,30 +5,198 @@
 	"version": "0.1.0",
 	"title": "Recent Posts",
 	"category": "fleximple-blocks",
-	"description": "Do something in particular.",
+	"description": "Display a list of your most recent posts.",
 	"attributes": {
 		"blockId": {
 			"type": "string",
 			"default": null
 		},
-		"attr1": {
+		"layout": {
 			"type": "string",
-			"default": "Attribute 1"
+			"default": "grid"
 		},
-		"attr2": {
-			"type": "string",
-			"default": "Attribute 2"
+		"columns": {
+			"type": "object",
+			"default": {
+				"small": 1,
+				"medium": 2,
+				"large": 2
+			}
 		},
-		"attr3": {
+		"gapColumn": {
+			"type": "object",
+			"default": {
+				"small": {
+					"value": 40,
+					"unit": "px"
+				},
+				"medium": {
+					"value": 32,
+					"unit": "px"
+				},
+				"large": {
+					"value": 32,
+					"unit": "px"
+				}
+			}
+		},
+		"gapRow": {
+			"type": "object",
+			"default": {
+				"small": {
+					"value": 40,
+					"unit": "px"
+				},
+				"medium": {
+					"value": 32,
+					"unit": "px"
+				},
+				"large": {
+					"value": 32,
+					"unit": "px"
+				}
+			}
+		},
+		"headingLevel": {
+			"type": "number",
+			"default": 3
+		},
+		"excerptLength": {
+			"type": "number",
+			"default": 40
+		},
+		"noFollow": {
+			"type": "boolean",
+			"default": false
+		},
+		"noReferrer": {
+			"type": "boolean",
+			"default": false
+		},
+		"postsToShow": {
+			"type": "number",
+			"default": 3
+		},
+		"offset": {
+			"type": "number",
+			"default": 0
+		},
+		"categories": {
+			"type": "array"
+		},
+		"excludedCategories": {
+			"type": "array"
+		},
+		"order": {
 			"type": "string",
-			"default": "Attribute 3"
+			"default": "desc"
+		},
+		"orderBy": {
+			"type": "string",
+			"default": "date"
+		},
+		"imageWidth": {
+			"type": "number",
+			"default": 40
+		},
+		"imageSize": {
+			"type": "object",
+			"default": {
+				"small": "medium",
+				"medium": "medium_large",
+				"large": "none"
+			}
+		},
+		"aspectRatio": {
+			"type": "object",
+			"default": {
+				"small": "4-3",
+				"medium": "16-10",
+				"large": "none"
+			}
+		},
+		"orderArticle": {
+			"type": "array",
+			"default": ["media", "content"]
+		},
+		"orderMedia": {
+			"type": "array",
+			"default": ["featuredImage", "audio"]
+		},
+		"orderContent": {
+			"type": "array",
+			"default": ["categories", "title", "meta", "excerpt", "readMore"]
+		},
+		"orderMeta": {
+			"type": "array",
+			"default": ["author", "date", "comments"]
+		},
+		"displayMedia": {
+			"type": "boolean",
+			"default": true
+		},
+		"displayFeaturedImage": {
+			"type": "boolean",
+			"default": true
+		},
+		"displayContent": {
+			"type": "boolean",
+			"default": true
+		},
+		"displayCategories": {
+			"type": "boolean",
+			"default": true
+		},
+		"displayTitle": {
+			"type": "boolean",
+			"default": true
+		},
+		"displayMeta": {
+			"type": "boolean",
+			"default": true
+		},
+		"displayAuthor": {
+			"type": "boolean",
+			"default": true
+		},
+		"displayDate": {
+			"type": "boolean",
+			"default": true
+		},
+		"displayComments": {
+			"type": "boolean",
+			"default": true
+		},
+		"displayExcerpt": {
+			"type": "boolean",
+			"default": true
+		},
+		"displayReadMore": {
+			"type": "boolean",
+			"default": false
+		},
+		"readMore": {
+			"type": "string",
+			"default": "Read more"
 		}
 	},
+	"styles": [
+		{
+			"name": "standard",
+			"label": "Standard",
+			"isDefault": true
+		},
+		{
+			"name": "stacked",
+			"label": "Stacked"
+		}
+	],
 	"supports": {
-		"html": false
+		"align": ["wide", "full"]
 	},
 	"textdomain": "fleximple-blocks-recent-posts",
 	"editorScript": "file:./index.js",
 	"editorStyle": "file:./index.css",
-	"style": "file:./style-index.css"
+	"style": "file:./style-index.css",
+	"render": "file:./render.php"
 }
