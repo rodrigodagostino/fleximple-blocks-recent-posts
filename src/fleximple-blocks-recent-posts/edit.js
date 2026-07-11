@@ -119,13 +119,13 @@ export default function RecentPostsEdit({
 
 	const { mediaItems } = useSelect(
 		(select) => {
-			const { getMediaItems } = select(coreStore);
+			const { getEntityRecords } = select(coreStore);
 			const mediaItemsIds = recentPosts?.map((post) => post.featured_media);
 
 			return {
 				mediaItems:
 					mediaItemsIds &&
-					getMediaItems({
+					getEntityRecords('postType', 'attachment', {
 						include: mediaItemsIds,
 						per_page: postsToShow,
 						context: 'view',
