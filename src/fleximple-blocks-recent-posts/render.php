@@ -1,9 +1,18 @@
 <?php
-if (isset($attributes['categories'])) {
+$args = array(
+	'posts_per_page'		=> $attributes['postsToShow'],
+	'offset'						=> $attributes['offset'],
+	'post_status'   		=> 'publish',
+	'order'      		 		=> strtoupper($attributes['order']),
+	'orderby'    		 		=> $attributes['orderBy'],
+	'suppress_filters' 	=> false,
+);
+
+if (isset($attributes['categories']) && !empty($attributes['categories'])) {
 	$args['category__in'] = array_column($attributes['categories'], 'value');
 }
 
-if (isset($attributes['excludedCategories'])) {
+if (isset($attributes['excludedCategories']) && !empty($attributes['excludedCategories'])) {
 	$args['category__not_in'] = array_column($attributes['excludedCategories'], 'value');
 }
 
