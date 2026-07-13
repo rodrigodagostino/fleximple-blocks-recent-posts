@@ -24,7 +24,9 @@
 		"makejson": "wp i18n make-json languages/fleximple-blocks-recent-posts-es_ES.po --no-purge"
 	},
 	"peerDependencies": {
+		"@wordpress/compose": "^8",
 		"@wordpress/element": "^8",
+		"@wordpress/i18n": "^6",
 		"classnames": "^2"
 	},
 	"devDependencies": {
