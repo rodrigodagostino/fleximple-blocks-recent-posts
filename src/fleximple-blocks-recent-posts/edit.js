@@ -117,23 +117,9 @@ export default function RecentPostsEdit({
 		[postsToShow, categories, excludedCategories, offset, order, orderBy]
 	);
 
-	const { mediaItems } = useSelect(
-		(select) => {
-			const { getEntityRecords } = select(coreStore);
-			const mediaItemsIds = recentPosts?.map((post) => post.featured_media);
-
-			return {
-				mediaItems:
-					mediaItemsIds &&
-					getEntityRecords('postType', 'attachment', {
-						include: mediaItemsIds,
-						per_page: postsToShow,
-						context: 'view',
-					}),
-			};
-		},
-		[recentPosts, postsToShow]
-	);
+	const mediaItems = recentPosts
+		? recentPosts.map((post) => post._embedded?.['wp:featuredmedia']?.[0] ?? null)
+		: null;
 
 	useEffect(() => {
 		if (!attributes.className) {
@@ -364,7 +350,7 @@ export default function RecentPostsEdit({
 		</InspectorControls>
 	);
 
-	if (!hasResolved || !mediaItems) {
+	if (!hasResolved) {
 		return (
 			<>
 				<Placeholder
