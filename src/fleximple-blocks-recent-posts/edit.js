@@ -14,10 +14,10 @@ import {
 	ToggleControl,
 	ToolbarGroup,
 } from '@wordpress/components';
-import { useInstanceId } from '@wordpress/compose';
+import { useDebounce, useInstanceId } from '@wordpress/compose';
 import { store as coreStore } from '@wordpress/core-data';
 import { useSelect } from '@wordpress/data';
-import { useEffect } from '@wordpress/element';
+import { useEffect, useState } from '@wordpress/element';
 
 import PostSortableControl from './components/post-sortable-control';
 import RecentPostsPreview from './components/recent-posts-preview';
@@ -71,6 +71,18 @@ export default function RecentPostsEdit({
 }) {
 	const instanceId = useInstanceId(RecentPostsEdit);
 
+	// RangeControl fires onChange on every drag tick, not just on release
+	// (see https://github.com/WordPress/gutenberg/issues/10168). postsToShow
+	// and offset feed straight into the useSelect query below, so dragging
+	// either slider was firing a new REST request per pixel of movement.
+	// The slider itself still tracks postsToShow live via setAttributes —
+	// only the value driving the query is debounced.
+	const debouncedSetQueryDeps = useDebounce((value) => setQueryDeps(value), 250);
+	const [queryDeps, setQueryDeps] = useState({ postsToShow, offset });
+	useEffect(() => {
+		debouncedSetQueryDeps({ postsToShow, offset });
+	}, [postsToShow, offset, debouncedSetQueryDeps]);
+
 	const { imageSizes, categoriesList } = useSelect(
 		(select) => {
 			const { getEntityRecords } = select(coreStore);
@@ -98,8 +110,8 @@ export default function RecentPostsEdit({
 					categories_exclude: excludedCatIds,
 					order,
 					orderby: orderBy,
-					per_page: postsToShow,
-					offset,
+					per_page: queryDeps.postsToShow,
+					offset: queryDeps.offset,
 					_embed: 'author,wp:featuredmedia',
 					ignore_sticky: true,
 				}).filter(([, value]) => typeof value !== 'undefined')
@@ -114,7 +126,7 @@ export default function RecentPostsEdit({
 				]),
 			};
 		},
-		[postsToShow, categories, excludedCategories, offset, order, orderBy]
+		[queryDeps, categories, excludedCategories, order, orderBy]
 	);
 
 	const mediaItems = recentPosts
