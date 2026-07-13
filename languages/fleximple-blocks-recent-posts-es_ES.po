@@ -5,8 +5,8 @@ msgstr ""
 "Project-Id-Version: Fleximple Blocks 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fleximple-blocks-"
 "recent-posts\n"
-"POT-Creation-Date: 2026-07-11T04:24:37+00:00\n"
-"PO-Revision-Date: 2026-07-11 01:25-0300\n"
+"POT-Creation-Date: 2026-07-13T18:29:15+00:00\n"
+"PO-Revision-Date: 2026-07-13 15:29-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -31,34 +31,34 @@ msgstr "Muestra una lista de tus entradas más recientes."
 msgid "Rodrigo D’Agostino"
 msgstr ""
 
-#: build/fleximple-blocks-recent-posts/render.php:84
-#: src/fleximple-blocks-recent-posts/render.php:84
+#: build/fleximple-blocks-recent-posts/render.php:93
+#: src/fleximple-blocks-recent-posts/render.php:93
 #: build/fleximple-blocks-recent-posts/index.js:1
 #: src/fleximple-blocks-recent-posts/components/recent-posts-preview.js:148
 msgid "Category:"
 msgstr "Categoría:"
 
-#: build/fleximple-blocks-recent-posts/render.php:101
-#: src/fleximple-blocks-recent-posts/render.php:101
+#: build/fleximple-blocks-recent-posts/render.php:110
+#: src/fleximple-blocks-recent-posts/render.php:110
 msgid "(no title)"
 msgstr "(sin título)"
 
-#: build/fleximple-blocks-recent-posts/render.php:127
-#: src/fleximple-blocks-recent-posts/render.php:127
+#: build/fleximple-blocks-recent-posts/render.php:136
+#: src/fleximple-blocks-recent-posts/render.php:136
 #: build/fleximple-blocks-recent-posts/index.js:1
 #: src/fleximple-blocks-recent-posts/components/recent-posts-preview.js:205
 msgid "Published by:"
 msgstr "Publicado por:"
 
-#: build/fleximple-blocks-recent-posts/render.php:139
-#: src/fleximple-blocks-recent-posts/render.php:139
+#: build/fleximple-blocks-recent-posts/render.php:148
+#: src/fleximple-blocks-recent-posts/render.php:148
 #: build/fleximple-blocks-recent-posts/index.js:1
 #: src/fleximple-blocks-recent-posts/components/recent-posts-preview.js:220
 msgid "Published on:"
 msgstr "Publicado en:"
 
-#: build/fleximple-blocks-recent-posts/render.php:148
-#: src/fleximple-blocks-recent-posts/render.php:148
+#: build/fleximple-blocks-recent-posts/render.php:157
+#: src/fleximple-blocks-recent-posts/render.php:157
 #, php-format
 msgid "%d comment"
 msgid_plural "%d comments"
