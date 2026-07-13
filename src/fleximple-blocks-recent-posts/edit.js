@@ -114,7 +114,7 @@ export default function RecentPostsEdit({
 				]),
 			};
 		},
-		[postsToShow, order, orderBy, categories]
+		[postsToShow, categories, excludedCategories, offset, order, orderBy]
 	);
 
 	const { mediaItems } = useSelect(
@@ -132,7 +132,7 @@ export default function RecentPostsEdit({
 					}),
 			};
 		},
-		[recentPosts]
+		[recentPosts, postsToShow]
 	);
 
 	useEffect(() => {
