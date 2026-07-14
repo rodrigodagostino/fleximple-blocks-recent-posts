@@ -6,7 +6,6 @@ import './style.scss';
  * Internal dependencies
  */
 import Edit from './edit';
-import Save from './save';
 import icon from './icon';
 import metadata from './block.json';
 
@@ -19,7 +18,7 @@ registerBlockType(metadata.name, {
 		src: icon,
 	},
 	edit: Edit,
-	save: Save,
+	save: () => null,
 });
 
 // Provide a custom block class
