@@ -83,18 +83,15 @@ export default function RecentPostsEdit({
 		debouncedSetQueryDeps({ postsToShow, offset });
 	}, [postsToShow, offset, debouncedSetQueryDeps]);
 
-	const { imageSizes, categoriesList } = useSelect(
-		(select) => {
-			const { getEntityRecords } = select(coreStore);
-			const settings = select(blockEditorStore).getSettings();
+	const { imageSizes, categoriesList } = useSelect((select) => {
+		const { getEntityRecords } = select(coreStore);
+		const settings = select(blockEditorStore).getSettings();
 
-			return {
-				imageSizes: settings.imageSizes,
-				categoriesList: getEntityRecords('taxonomy', 'category', CATEGORIES_LIST_QUERY),
-			};
-		},
-		[imageSize]
-	);
+		return {
+			imageSizes: settings.imageSizes,
+			categoriesList: getEntityRecords('taxonomy', 'category', CATEGORIES_LIST_QUERY),
+		};
+	}, []);
 
 	const { recentPosts, hasResolved } = useSelect(
 		(select) => {
