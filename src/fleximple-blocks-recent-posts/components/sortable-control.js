@@ -1,17 +1,20 @@
 import { arrayMoveImmutable } from 'array-move';
-import { SortableHandle } from 'react-sortable-hoc';
 import { interactionIcons } from 'fleximple-components/components/icons';
 
 import { __ } from '@wordpress/i18n';
 import { Icon } from '@wordpress/components';
 
-export const DragHandle = SortableHandle(() => {
+export const DragHandle = ({ listeners, attributes }) => {
 	return (
-		<div className="fleximple-components-sortable-control__drag-handle">
+		<div
+			className="fleximple-components-sortable-control__drag-handle"
+			{...listeners}
+			{...attributes}
+		>
 			<Icon icon={interactionIcons.dragHandle} />
 		</div>
 	);
-});
+};
 
 export const getHelpText = (attribute, state) => {
 	switch (attribute) {
@@ -151,8 +154,15 @@ export const onSortStart = () => {
 	document.body.setAttribute('style', 'cursor:grabbing');
 };
 
-export const onSortEnd = ({ oldIndex, newIndex }, _, attributeName, attribute, setAttributes) => {
+export const onSortEnd = (event, items, attributeName, attribute, setAttributes) => {
 	document.body.removeAttribute('style');
+	const { active, over } = event;
+	if (!over || active.id === over.id) return;
+
+	const oldIndex = items.indexOf(active.id);
+	const newIndex = items.indexOf(over.id);
+	if (oldIndex === -1 || newIndex === -1) return;
+
 	const order = arrayMoveImmutable(attribute, oldIndex, newIndex);
 	setAttributes({ [attributeName]: order });
 };

@@ -1,8 +1,7 @@
-import { SortableContainer, SortableElement } from 'react-sortable-hoc';
 import { Button } from '@wordpress/components';
 
+import SortableGroup, { DragHandle } from './sortable-group';
 import {
-	DragHandle,
 	getHelpText,
 	getLabel,
 	getState,
@@ -11,12 +10,20 @@ import {
 	toggleAttribute,
 } from './sortable-control';
 
+const NESTED_LIST_ATTR = {
+	media: 'orderMedia',
+	content: 'orderContent',
+	meta: 'orderMeta',
+};
+
 export default function RecentPostsSortableControl({
 	attributes,
 	attributes: { orderArticle, orderContent, orderMedia, orderMeta },
 	setAttributes,
 }) {
-	const SortableItem = SortableElement(({ value }) => {
+	const nestedItems = { orderMedia, orderContent, orderMeta };
+
+	const SortableRow = ({ value, dragHandleProps }) => {
 		const label = getLabel(value);
 		let icon = 'hidden';
 		let text = getHelpText(value, 'hidden');
@@ -28,7 +35,7 @@ export default function RecentPostsSortableControl({
 
 		return (
 			<div className="fleximple-components-sortable-control__item">
-				<DragHandle />
+				<DragHandle {...dragHandleProps} />
 				<div className="fleximple-components-sortable-control__label">{label}</div>
 				<Button
 					icon={icon}
@@ -38,76 +45,41 @@ export default function RecentPostsSortableControl({
 				/>
 			</div>
 		);
-	});
-
-	const SortableList = SortableContainer(({ items }) => {
-		return (
-			<div className="fleximple-components-sortable-control__sortable-list">
-				{items.map((value, index) => {
-					switch (value) {
-						case 'media':
-							return (
-								<>
-									<SortableItem key={`item-${index}`} index={index} value={value} />
-									<SortableList
-										items={orderMedia}
-										onSortStart={onSortStart}
-										onSortEnd={(sortEnd, e) =>
-											onSortEnd(sortEnd, e, 'orderMedia', orderMedia, setAttributes)
-										}
-										useDragHandle
-										helperClass="fleximple-components-sortable-control__helper"
-									/>
-								</>
-							);
-						case 'content':
-							return (
-								<>
-									<SortableItem key={`item-${index}`} index={index} value={value} />
-									<SortableList
-										items={orderContent}
-										onSortStart={onSortStart}
-										onSortEnd={(sortEnd, e) =>
-											onSortEnd(sortEnd, e, 'orderContent', orderContent, setAttributes)
-										}
-										useDragHandle
-										helperClass="fleximple-components-sortable-control__helper"
-									/>
-								</>
-							);
-						case 'meta':
-							return (
-								<>
-									<SortableItem key={`item-${index}`} index={index} value={value} />
-									<SortableList
-										items={orderMeta}
-										onSortStart={onSortStart}
-										onSortEnd={(sortEnd, e) =>
-											onSortEnd(sortEnd, e, 'orderMeta', orderMeta, setAttributes)
-										}
-										useDragHandle
-										helperClass="fleximple-components-sortable-control__helper"
-									/>
-								</>
-							);
-						default:
-							return <SortableItem key={`item-${index}`} index={index} value={value} />;
-					}
-				})}
-			</div>
-		);
-	});
+	};
 
 	return (
 		<div className="fleximple-components-sortable-control">
-			<SortableList
+			<SortableGroup
 				items={orderArticle}
 				onSortStart={onSortStart}
-				onSortEnd={(sortEnd, e) =>
-					onSortEnd(sortEnd, e, 'orderArticle', orderArticle, setAttributes)
+				onSortEnd={(event, items) =>
+					onSortEnd(event, items, 'orderArticle', orderArticle, setAttributes)
 				}
-				useDragHandle
-				helperClass="fleximple-components-sortable-control__helper"
+				className="fleximple-components-sortable-control__sortable-list"
+				renderItem={(value) =>
+					({ dragHandleProps }) => {
+						const nestedAttr = NESTED_LIST_ATTR[value];
+						if (!nestedAttr) return <SortableRow value={value} dragHandleProps={dragHandleProps} />;
+
+						const items = nestedItems[nestedAttr];
+						return (
+							<>
+								<SortableRow value={value} dragHandleProps={dragHandleProps} />
+								<SortableGroup
+									items={items}
+									onSortStart={onSortStart}
+									onSortEnd={(event, evItems) =>
+										onSortEnd(event, evItems, nestedAttr, items, setAttributes)
+									}
+									className="fleximple-components-sortable-control__sortable-list"
+									renderItem={(nestedValue) =>
+										({ dragHandleProps: nestedDragHandleProps }) => (
+											<SortableRow value={nestedValue} dragHandleProps={nestedDragHandleProps} />
+										)}
+								/>
+							</>
+						);
+					}}
 			/>
 		</div>
 	);
