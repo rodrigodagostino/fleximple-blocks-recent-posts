@@ -68,7 +68,7 @@ foreach ($recent_posts as $post) {
 			}
 		}
 
-		$image_source = !empty($featured_image) ? $featured_image[0] : FLEXIMPLEBLOCKS_PLUGIN_URL . 'assets/images/placeholder-image.svg';
+		$image_source = !empty($featured_image) ? $featured_image[0] : FB_RECENT_POSTS_PLUGIN_URL . 'assets/images/placeholder-image.svg';
 
 		$post_featured_image = sprintf(
 			'<picture class="%s">
